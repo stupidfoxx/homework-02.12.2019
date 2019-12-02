@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(216, 216, 216);
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    margin: 15px auto;
+    & .btn {
+        width: 180px;
+        height: 40px;
+        background: #286EFA;
+        color: white;
+        font-size: 30px;
+        border: 1px solid #286EFA;
+        border-radius: 3px;
+        text-align: center;
+        margin: 15px;
+        &:hover {
+            background: rgb(75, 135, 255);
+            cursor: pointer;
+        }
+    }
+    & .refresh {
+        width: 180px;
+        height: 40px;
+        background: rgb(250, 40, 85);
+        color: white;
+        font-size: 32px;
+        border: 1px solid rgb(250, 40, 68);
+        border-radius: 3px;
+        text-align: center;
+        margin: 15px;
+        &:hover {
+            background: rgb(253, 72, 111);
+            cursor: pointer;
+        }
+    }
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+    margin: 15px auto;
+    flex-wrap: wrap;
+    height: 100vh;
+    width: 100%;
+    & .tank_1 {
+        margin: 25px;
+        width: 500px;
+        height: 500px;
+        background: url('./../images/tank_1.png') no-repeat center;
+        background-size: 100%;
+    } 
+    & .logs {
+        padding: 20px;
+        margin: 15px;
+        width: 500px;
+        height: 400px;
+        max-height: 100%;
+        background: rgb(182, 182, 182);
+        border-radius: 35px;
+        background-size: 100%;
+        text-align: center;
+        overflow: scroll;
+        position: relative;
+        & p {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 16px;
+        }
+    }
+    & .tank_2 {
+        margin: 25px;
+        width: 500px;
+        height: 500px;
+        background: url('./../images/tank_2.png') no-repeat center;
+        background-size: 100%;
+    }
+
+}

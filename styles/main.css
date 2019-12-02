@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #d8d8d8;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 15px auto;
+}
+
+.header .btn {
+  width: 180px;
+  height: 40px;
+  background: #286EFA;
+  color: white;
+  font-size: 30px;
+  border: 1px solid #286EFA;
+  border-radius: 3px;
+  text-align: center;
+  margin: 15px;
+}
+
+.header .btn:hover {
+  background: #4b87ff;
+  cursor: pointer;
+}
+
+.header .refresh {
+  width: 180px;
+  height: 40px;
+  background: #fa2855;
+  color: white;
+  font-size: 32px;
+  border: 1px solid #fa2844;
+  border-radius: 3px;
+  text-align: center;
+  margin: 15px;
+}
+
+.header .refresh:hover {
+  background: #fd486f;
+  cursor: pointer;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 15px auto;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  height: 100vh;
+  width: 100%;
+}
+
+.wrapper .tank_1 {
+  margin: 25px;
+  width: 500px;
+  height: 500px;
+  background: url("./../images/tank_1.png") no-repeat center;
+  background-size: 100%;
+}
+
+.wrapper .logs {
+  padding: 20px;
+  margin: 15px;
+  width: 500px;
+  height: 400px;
+  max-height: 100%;
+  background: #b6b6b6;
+  border-radius: 35px;
+  background-size: 100%;
+  text-align: center;
+  overflow: scroll;
+  position: relative;
+}
+
+.wrapper .logs p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+}
+
+.wrapper .tank_2 {
+  margin: 25px;
+  width: 500px;
+  height: 500px;
+  background: url("./../images/tank_2.png") no-repeat center;
+  background-size: 100%;
+}
+/*# sourceMappingURL=main.css.map */
